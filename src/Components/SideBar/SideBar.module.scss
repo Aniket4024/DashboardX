@@ -1,0 +1,75 @@
+::placeholder {
+    color:#aeb9e1;
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+#SideBar{
+    background-color: #080f25ed;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    // box-shadow: rgb(44, 150, 255) -30px 8px 60px;
+    overflow: auto;
+    transition: all 0.3s;
+    scroll-behavior: smooth;
+}
+#SideBarP1{
+    // border: 1px solid Red;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#SearchBox{
+    width: 80%;
+    margin: 0px auto 40px auto;
+    height: 40px;
+    border: 1px solid #343b4f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101935;
+    gap: 5px;
+    transition: all 0.2s;
+}
+#InputSearchSideBar{
+    background-color: transparent;
+    outline: 0px;
+    color: white;
+    border: 0px;
+}
+
+#closeLogo{
+    width: 100%;
+    height:63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #37446b;
+}
+#CloseIcons{
+    display: grid;
+    // gap:20px;
+    padding: 30px 0px;
+}
+#CloseIconStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    color: #aeb9e1;
+}

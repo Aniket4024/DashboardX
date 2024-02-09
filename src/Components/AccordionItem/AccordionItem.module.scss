@@ -1,0 +1,45 @@
+.AccordionItem{
+    margin: 30px auto;
+    width: 80%;
+}
+
+.AccordionButton{
+    background-color: transparent;
+    border: 0px;
+    color: #aeb9e1;
+    cursor: pointer;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box{
+    text-align: left;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}
+
+.menu{
+    width: 70%;
+    height: 40px;
+    margin:5px auto;
+    padding: 0px 30px;
+    background-color: #212c4d;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border-left: 3px solid #6c72ff;
+}
+.ComponentLibrary{
+    width: 100%;
+    border-top: 1px solid #343b4f;
+    border-bottom: 1px solid #343b4f;
+    padding:35px 25px 20px 25px ;
+    margin: 30px auto;
+    width: 80%;
+}
